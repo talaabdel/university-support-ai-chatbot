@@ -1,38 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+University Support AI Chatbot
+Applying to university can feel overwhelming — with endless deadlines, confusing program details, and so many questions that students don’t know who to ask.
+This AI-powered chatbot is designed to ease that stress by providing instant answers and guidance to students as they navigate their university journey.
 
-## Getting Started
+Features
+Answers frequently asked student questions (deadlines, campus resources, program requirements, etc.)
+Acts as a 24/7 virtual advisor for prospective and current students
+Built with conversational AI to make the experience natural and supportive
+Clean, easy-to-use web interface built with Next.js
+Deployed on Vercel for fast and scalable access
 
-First, run the development server:
+Tech Stack
+Frontend: Next.js, React, CSS
+Backend: Node.js, API Routes
+AI Models: Hugging Face / OpenAI APIs
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Hosting: Vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project Structure
+/components → Reusable UI components  
+ /pages → App routes and chatbot interface  
+ /public → Static assets  
+ /utils → Helper functions and API logic
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    1. Clone the repository:
+        git clone https://github.com/yourusername/university-chatbot.git
+        cd university-chatbot
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+    2. Install dependencies:
+        npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    3. Set up environment variables in a .env.local file:
+        OPENAI_API_KEY=your_api_key_here
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-'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'
+    4. Run the development server:
+        npm run dev

@@ -1,6 +1,6 @@
 # 🎓 University Support AI Chatbot  
 
-Applying to university can feel overwhelming — with endless deadlines, confusing program details, and so many questions that students don’t know who to ask.  
+Applying to university can feel overwhelming, with endless deadlines, confusing program details, and so many questions that students don’t know who to ask.  
 
 This **AI-powered chatbot** is designed to ease that stress by providing instant answers and guidance to students as they navigate their university journey.  
 
@@ -37,7 +37,7 @@ This **AI-powered chatbot** is designed to ease that stress by providing instant
    ```bash
    git clone https://github.com/yourusername/university-chatbot.git
    cd university-chatbot
-   
+
 Install dependencies:
 npm install
 
